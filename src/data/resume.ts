@@ -10,7 +10,7 @@ export const RESUME_DATA: Job[] = [
   {
     company: "University of North Carolina at Chapel Hill",
     role: "Research Assistant",
-    location: "",
+    location: "Chapel Hill, NC, USA",
     period: "Aug 2024 – Present",
     description: [],
   },
