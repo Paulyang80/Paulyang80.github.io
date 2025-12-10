@@ -17,7 +17,7 @@ export function Hero() {
         <p className="text-xl md:text-2xl text-gray-400 mb-8 max-w-2xl mx-auto leading-relaxed">
           Full Stack Developer & Research Assistant
           <br />
-          Specializing in <span className="text-primary">Voice-Processing</span>, <span className="text-secondary">NLP</span>, and <span className="text-accent">AI Applications</span>.
+          Specializing in <span className="text-primary">LLM</span>, <span className="text-secondary">Diffusion Model</span>, and <span className="text-accent">AI Applications</span>.
         </p>
         
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
