@@ -25,7 +25,7 @@ export function Hero() {
             href="/experience"
             className="px-8 py-3 rounded-full bg-white text-black font-semibold hover:bg-gray-200 transition-colors flex items-center gap-2"
           >
-            View Experience <ArrowRight size={18} />
+            Experience & Resume <ArrowRight size={18} />
           </Link>
           
           <div className="flex items-center gap-4">

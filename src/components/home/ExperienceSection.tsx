@@ -1,11 +1,23 @@
 import { RESUME_DATA } from "@/data/resume";
+import { Download } from "lucide-react";
 
 export function ExperienceSection() {
   return (
     <section className="py-20 px-4 sm:px-6 lg:px-8 max-w-5xl mx-auto">
-      <div className="flex items-center gap-4 mb-12">
-        <h2 className="text-3xl font-bold">Work Experience</h2>
-        <div className="h-px bg-white/10 flex-grow"></div>
+      <div className="flex items-center justify-between mb-12">
+        <div className="flex items-center gap-4 flex-grow">
+          <h2 className="text-3xl font-bold">Work Experience</h2>
+          <div className="h-px bg-white/10 flex-grow hidden sm:block"></div>
+        </div>
+        <a
+          href="https://drive.google.com/drive/folders/1igF_AdzoFwarnZpm26BtXmFkgNDTdAp-?usp=drive_link"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="ml-4 px-4 py-2 rounded-full bg-white/10 hover:bg-white/20 text-white text-sm font-medium transition-colors flex items-center gap-2"
+        >
+          <Download size={16} />
+          <span>Resume</span>
+        </a>
       </div>
 
       <div className="space-y-12">
