@@ -15,6 +15,12 @@ export const PROJECTS_DATA: Project[] = [
     link: ""
   },
   {
+    title: "Pikachu Dodgeball: MIPS-Based Game on FPGA",
+    description: "Designed and implemented a complete hardware-software system from scratch: built a single-cycle MIPS processor in Verilog, integrated memory-mapped I/O devices (VGA display controller, keyboard, accelerometer, sound, LEDs), and developed a physics-based dodgeball game entirely in MIPS Assembly. Implemented collision detection, gravity simulation, and sprite-based rendering on FPGA hardware, demonstrating end-to-end understanding from digital logic gates to application-level programming.",
+    tags: ["Verilog", "MIPS Assembly", "FPGA", "Digital Logic Design", "Computer Architecture", "Game Development"],
+    link: "" 
+  },
+  {
     title: "NeRF vs. 3D Gaussian Splatting: Comparative Analysis",
     description: "Conducted comprehensive comparative analysis of state-of-the-art 3D reconstruction techniques: Mip-NeRF 360, Instant-NGP, and 3D Gaussian Splatting. Implemented end-to-end pipeline including COLMAP-based camera pose estimation on Tanks and Temples dataset. Evaluated models across three dimensions: rendering speed (FPS), view consistency (temporal stability), and detail preservation (PSNR, SSIM, LPIPS), achieving quantitative benchmarks for real-time vs. quality trade-offs in neural rendering.",
     tags: ["Python", "NeRF", "Gaussian Splatting", "COLMAP", "Computer Vision", "3D Reconstruction"],
