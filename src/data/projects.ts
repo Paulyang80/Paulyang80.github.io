@@ -10,7 +10,7 @@ export interface Project {
 export const PROJECTS_DATA: Project[] = [
   {
     title: "CSXL: AI-Powered Interview Platform",
-    description: "Developed a production-ready RESTful service using FastAPI and Azure OpenAI to generate adaptive coding interview questions[cite: 30, 32]. Established a robust CI/CD pipeline with GitHub Actions and Docker to automate testing and deployment to OKD cloud, ensuring code quality for a collaborative 4-person team[cite: 34, 35]. Designed modular PostgreSQL schemas to support efficient content versioning[cite: 33].",
+    description: "Developed a production-ready RESTful service using FastAPI and Azure OpenAI to generate adaptive coding interview questions. Established a robust CI/CD pipeline with GitHub Actions and Docker to automate testing and deployment to OKD cloud, ensuring code quality for a collaborative 4-person team. Designed modular PostgreSQL schemas to support efficient content versioning.",
     tags: ["FastAPI", "Azure OpenAI", "CI/CD", "Docker", "PostgreSQL"],
     link: "https://github.com/paulyang80" // 建議補上
   },
@@ -22,7 +22,7 @@ export const PROJECTS_DATA: Project[] = [
   },
   {
     title: "Slavic Languages Linguistic Search Engine",
-    description: "Architected a high-performance linguistic search engine supporting windowed proximity queries (e.g., 'A near B') via positional inverted indexing in PostgreSQL. Built an automated NLP pipeline using spaCy for complex morphological tokenization and lemmatization, bridging raw text data with structured linguistic research needs[cite: 73, 74].",
+    description: "Architected a high-performance linguistic search engine supporting windowed proximity queries (e.g., 'A near B') via positional inverted indexing in PostgreSQL. Built an automated NLP pipeline using spaCy for complex morphological tokenization and lemmatization, bridging raw text data with structured linguistic research needs.",
     link: "https://lcsl.nccu.edu.tw/", 
     tags: ["Django", "PostgreSQL", "NLP Pipeline", "Search Algorithms"],
   },
