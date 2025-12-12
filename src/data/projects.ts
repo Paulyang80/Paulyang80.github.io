@@ -9,6 +9,12 @@ export interface Project {
 
 export const PROJECTS_DATA: Project[] = [
   {
+title: "Text2Chair: AI-Powered 3D Furniture Generation in Mixed Reality",
+description: "Developed end-to-end text-to-3D generative pipeline for Meta Quest 3, enabling real-time furniture visualization in mixed reality environments. Integrated Stable Diffusion XL Lightning with TripoSR image-to-mesh model via ComfyUI backend, achieving 15-20 second generation time from text prompt to interactive 3D object. Implemented custom OBJ loader with vertex color preservation, XR interaction system with physics-based manipulation, and wireless API communication via ngrok tunnel. Overcame technical challenges in URP shader vertex color rendering and MR collision detection, resulting in spatially-aware furniture placement with natural grab-and-throw mechanics.",
+tags: ["Unity", "C#", "XR", "Mixed Reality", "Meta Quest 3", "Stable Diffusion", "TripoSR", "ComfyUI", "3D Generation", "Computer Vision", "URP"],
+link: ""
+  },
+  {
     title: "CSXL: AI-Powered Interview Platform",
     description: "Developed a production-ready RESTful service using FastAPI and Azure OpenAI to generate adaptive coding interview questions. Established a robust CI/CD pipeline with GitHub Actions and Docker to automate testing and deployment to OKD cloud, ensuring code quality for a collaborative 4-person team. Designed modular PostgreSQL schemas to support efficient content versioning.",
     tags: ["FastAPI", "Azure OpenAI", "CI/CD", "Docker", "PostgreSQL"],
